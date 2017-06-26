@@ -1,7 +1,9 @@
 
 h1 {
-  font family: Helvetica, Arial;
+  font family: Arial;
   color: white;
+  margin: 50px 40px;
+  
 }
 
 .jumbotron {
