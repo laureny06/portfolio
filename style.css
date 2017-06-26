@@ -2,7 +2,7 @@
 h1 {
   font family: Helvetica Arial;
   color: white;
-  margin: 50px 40px;
+  margin-top: 600px;
   
 }
 
@@ -11,3 +11,11 @@ h1 {
   background-size: cover;
   height: 100px;
 } 
+
+h2 {
+  font-family: Arial;
+}
+
+p {
+  font-family: Arial;
+}
