@@ -2,14 +2,14 @@
 h1 {
   font-family: Helvetica Arial;
   color: white;
-  margin-top: 600px;
+  padding-top: 200px;
   
 }
 
 .jumbotron {
   background-size: cover;
   background: url(http://oi68.tinypic.com/6ge7fd.jpg) no-repeat center center;
-  height: 100px;
+  height: 400px;
 } 
 
 h2 {
