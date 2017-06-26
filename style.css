@@ -14,10 +14,12 @@ h1 {
 .header .nav {
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .header .nav li {
-  padding-right: 20px;
+  padding-right: 30px;
+  margin-bottom: 0px;
 
 }
 
@@ -40,7 +42,7 @@ h2 {
 
 p {
   font-family: Helvetica;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 .nav li {
@@ -55,12 +57,18 @@ p {
 
 .btn {
   background-color: black;
-  padding: 10px 20px;
+  padding: 10px 30px;
   color: white;
 }
 
 .body {
   padding-left: 20px;
+}
+
+.supporting {
+  margin-left: 20px;
+  font-family: Helvetica;
+  margin-bottom: 60px;
 }
 
 .jumbotron-2 {
@@ -80,7 +88,16 @@ p {
 
 .jumbotron-2 h1 a {
   text-decoration: none;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
   padding: 14px 30px;
 }
+
+.jumbotron-2 h1 a:hover {
+  text-decoration: none;
+  border: 3px solid white;
+  color: white;
+  background-color: transparent;  
+}
+
