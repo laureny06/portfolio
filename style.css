@@ -5,6 +5,7 @@ h1 {
   padding-left: 450px;
   font-weight: 1000;
   font-size: 70px;
+  margin: 0px;
 }
 
 .header {
@@ -46,7 +47,7 @@ p {
 }
 
 .nav li {
-  display: inline-block;
+  display: inline;
 }
 
 .btn a {
@@ -63,18 +64,17 @@ p {
 
 .body {
   padding-left: 20px;
+  display: inline-block;
+}
+
+.body .container {
+  display: inline-block;
 }
 
 .supporting {
   margin-left: 20px;
   font-family: Helvetica;
-  margin-bottom: 60px;
-}
-
-.jumbotron-2 {
-  background-size: cover;
-  background: url(http://oi68.tinypic.com/6ge7fd.jpg) no-repeat center center;
-  height: 200px;
+  margin-bottom: 0px;
 }
 
 .jumbotron-2 h1 {
@@ -84,20 +84,24 @@ p {
   padding-left: 520px;
   font-weight: 700;
   font-size: 20px;
+  margin-bottom: 80px;
 }
 
 .jumbotron-2 h1 a {
   text-decoration: none;
   color: black;
-  background-color: white;
-  border: 1px solid white;
+  background-color: transparent;
+  border: 3px solid black;
   padding: 14px 30px;
 }
 
 .jumbotron-2 h1 a:hover {
   text-decoration: none;
-  border: 3px solid white;
+  border: 3px solid black;
   color: white;
-  background-color: transparent;  
+  background-color: black;  
 }
 
+body {
+  margin: 0px;
+}
