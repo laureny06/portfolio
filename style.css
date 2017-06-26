@@ -1,14 +1,14 @@
 h1 {
- color: red;
+ color: white;
  font-family: Helvetica, ;
 }
 
 .header {
-  background-color: black;
+  background-color: white;
 }
 
 .jumbotron {
-  background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png) no-repeat center center;
+  background: url(http://i68.tinypic.com/6ge7fd.jpg) no-repeat center center;
   background-size: cover;
   height: 800px;
 }
