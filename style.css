@@ -1,1 +1,11 @@
 
+h1 {
+  font family: Helvetica, Arial;
+  color: white;
+}
+
+.jumbotron {
+  background: url(http://oi68.tinypic.com/6ge7fd.jpg) no-repeat center center;
+  background-size: cover;
+  height: 800px;
+}
