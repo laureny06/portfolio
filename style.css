@@ -22,6 +22,7 @@ h1 {
 .header .nav li {
   padding-right: 30px;
   margin-bottom: 0px;
+  
 
 }
 
@@ -31,6 +32,13 @@ h1 {
   font-family: Helvetica;
   letter-spacing: 2px;
   font-weight: bold;
+  
+}
+
+.nav a:hover {
+  color: #224461;
+  font-weight: 1000;
+  text-decoration: underline;
 }
 
 .jumbotron {
@@ -165,8 +173,20 @@ p {
   margin-left: 100px;
 }
 
+.description {
+  width: 30%;
+  display: inline-block;
+  text-decoration: bold;
+}
+
 .projects p {
   text-decoration: underline;
+}
+
+.projects .description p {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 h3 {
