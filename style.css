@@ -1,5 +1,5 @@
 h1 {
-  font-family: Helvetica;
+  font-family: "Courier New";
   color: white;
   padding-top: 110px;
   padding-left: 450px;
@@ -10,6 +10,7 @@ h1 {
 
 .header {
   background-color: #f0eeec;
+  margin-top: 0px;
 }
 
 .header .nav {
@@ -37,7 +38,7 @@ h1 {
 } 
 
 h2 {
-  font-family: Helvetica;
+  font-family: "Courier New";
   font-size: 40px;
 }
 
@@ -69,6 +70,8 @@ p {
 
 .body .container {
   display: inline-block;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .supporting {
@@ -102,6 +105,56 @@ p {
   background-color: black;  
 }
 
-body {
-  margin: 0px;
+.container img {
+  margin-top: 40px;
+  margin-left: 10px;
+  float: right;
+}
+
+.image {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.likes {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.dislikes {
+  display: inline-block;
+}
+
+.projects {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.projects h3 {
+  font-family: "Courier New";
+  margin-top: 30px;
+}
+
+.menu {
+  width: 30%;
+  display: inline-block;
+}
+
+.whale {
+  width: 30%;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.obamicon {
+  margin-top: 60px;
+}
+
+.projects p {
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: "Courier New";
 }
