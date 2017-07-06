@@ -7,9 +7,9 @@
   </head>
   
   
-  <body>
-  <script type="text/javascript" src="test.js"> </script>
-    
+ <body onload="myAlert()">
+  
+     
   <div class="header">
    <div class="container">
       <ul class="nav">
@@ -25,14 +25,15 @@
      <div class="container">  
       <div class="main">
         <h1>ABOUT ME</h1>
+        
+        
       </div>
     </div>
    </div>
+   
+   
     
-   <div id ="container">
-    <div id ="animate">My animation will go here</div>
-   </div>
-    
+   
    <div class="body">
      <div class="container">
        <h2> Hello! </h2>
@@ -67,8 +68,9 @@
       <h3> Here are the projects that I have worked on: </h3>
     
     
-    
-    <div class="menu">
+
+      
+   <div class="menu">
       <p> Random Menu Generator </p>
       <img src="http://i.imgur.com/yFoqo9W.png" height="180" width="450"/>
     </div> 
@@ -81,12 +83,14 @@
    <div class="obamicon">
     <div class="obamiconb4">
       <p> Obamicon before </p>
-      <img src="http://i.imgur.com/uEHLkYp.jpg" height="300" width="220"/>
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="http://i.imgur.com/uEHLkYp.jpg" width="300" height="220">
     </div>
+     
+     
     
     <div class="obamiconafter">
       <p> Obamicon after </p>
-      <img src="http://i.imgur.com/G5t4BQi.jpg" height="300" width="220"/>
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="http://i.imgur.com/G5t4BQi.jpg" width="300" height="220">
     </div>
      
      <div class="description">
@@ -104,6 +108,26 @@
   </div>
    
     
+ <!-- JAVA SCRIPT S T A R T S   H E R E -->
+    
+<script>
+function bigImg(x) {
+    x.style.height = "330px";
+    x.style.width = "242px";
+}
+
+function normalImg(x) {
+    x.style.height = "300px";
+    x.style.width = "220px";
+}
+
+function myAlert() {
+    alert("Hi! This welcome pop up is so ugly");
+}
+
+</script>
+
+
     
     
   </body>
