@@ -41,6 +41,7 @@ h1 {
   background-size: cover;
   background: url(http://oi68.tinypic.com/6ge7fd.jpg) no-repeat center center;
   height: 300px;
+  background-attachment: fixed;
 } 
 
 h2 {
@@ -189,3 +190,23 @@ p {
 h3 {
   font-family: "Courier New";
 }
+
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.menu {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.jumbotron2 {
+  background-size: cover;
+  background: url(http://i.imgur.com/5rQO946.jpg) no-repeat center center;
+  height: 500px;
+  background-attachment: fixed;
+  margin-top: 30px;
+} 
+
