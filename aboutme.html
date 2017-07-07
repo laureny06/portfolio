@@ -42,9 +42,15 @@
      <div class="container">
        <h2> Hello! </h2>
        <p> My name is Lauren Young. I am a rising senior at San Mateo High School. I don't really know how to code and I think I'm going to get carpal tunnel syndrome. I enjoy traveling and eating Mexican food. I don't enjoy going to school and am always tired. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.   </p>
-      
+      <button onclick="myFunction()">Read More</button>
+
+		<div id="expand">
+  		Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. 
+		</div>
+       
      </div>
    </div>
+   
     
    <div class="supporting">
      <div class="likes">
@@ -132,6 +138,14 @@ function myAlert() {
     alert("Hi! This welcome pop up is so ugly");
 }
 
+function myFunction() {
+    var x = document.getElementById('expand');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
 
 
 </script>
